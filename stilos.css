@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+.row{
+    background-color: white;
+    color: #003772;
+    font-size: 20px;
+    font: 27px Arial, Helvetica, sans-serif;
+    margin: 10px; 
+    display: inline-block;
+    padding: 10px 50px 10px 50px;
+    border: 2px solid #003772;
+    border-radius: 5px; 
+    text-align: center;
+    width: 260px;
+    text-decoration: none;
+    
+}
+.row:hover{
+    background-color: #003772;
+    color: white;
+}
+.superior{
+    position: relative;
+    left: 71.5%;
+}
+.tipo{
+    background-color: lightcoral;
+    width: 50%;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    background: url(lgoafp.jpg) no-repeat;
+    position: absolute;
+    background-position: 6px 0px;
+    background-size: 182px 165px;
+}
+.enlaces-interes {
+    
+    font-size: 15px; 
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 30px;
+    position: absolute;
+    left: 42%;
+    
+}
+.enlaces-interes2 {
+    color: #003772;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 85px;
+    position: absolute;
+    left: 11%;
+}
+.enlaces-interes a{
+    text-decoration: none;
+    color: #9F2E1E;
+    font: 22px Arial, Helvetica, sans-serif;
+    letter-spacing: 1pt;
+}
+.enlaces-interes2 a{
+    text-decoration: none;
+    color: #003772;
+    font: 22px Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5pt;
+}
+.enlaces-interes a:HOVER{
+    color: #003772;
+}
+.enlaces-interes2 a:HOVER{
+    color: #9F2E1E;
+}
+/* MENU*/
+ul {
+    text-align: center;
+    background-color: #9F2E1E;
+    
+    
+}
+nav li {
+    
+        display: inline-block;
+        background-color: #9F2E1E;          
+}
+nav a{
+    text-decoration: none;/*para borrar la linea del navegador*/
+    color: white;
+    display: block;
+    padding: 25px 20px;
+    font-size: 1.1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    
+    
+}
+.menp{
+    display: none;
+}
+nav a:hover{    /*se le dice q cuando este el raton encima de "a" realice algo*/
+    background: #cc2e12;
+    /*color: rgb(245, 245, 102);*/
+    /*transition: ls;supuestamente es para que el boton tenga un efecto*/
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/*CUERPO*/
+.imagen1{
+    position: relative;
+    top: 240px;
+}
+.casita{
+    position: relative;
+    top: 250px;
+}
+.casita a{
+    font-size: 27px;
+    font-family:"Trebuchet MS",helvetica,Verdana, Geneva, Sans-Serif;
+    color: #003772;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.tbla{
+    position: relative;
+    left: 17%;
+    top: 300px;
+}
+.tbla1{
+    display: none;
+}
+.bota{
+    position: relative;
+    left: 20%;
+    top: 350px;
+}
+.img1, .img2, .img3{
+    margin-bottom: 50px;
+    
+}
+
+.barra{
+    position: relative;
+    top: 400px;
+    
+}
+.foo{
+    width: 104%;
+}
+.barra1{
+    display: none;
+}
+.derecho{
+    position: relative;
+    top: 450px;
+    left: 20%;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px){
+    
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 780px){
+
+    .enlaces-interes a{
+        display: none;
+    }
+    .enlaces-interes2 a{
+        display: none;
+    }
+    .superior a{
+        position: relative;
+        right: 300%;
+    }
+    .superior {
+        width: 42px;
+    }
+    .row {
+        width: 200px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .logo{
+        background-size: 132px 115px;
+    }
+    .men{
+        display: none;
+    }
+    .menp{
+        display: block;
+        font-size: 1.4rem;
+    }
+    nav a{
+        padding: 15px;
+    }
+    .imagen1{
+        top: 190px;
+        width: 100%;
+        height: 50px;
+    }
+    .casita{
+        top: 195px;
+        width: auto;
+        
+    }
+    .casita a{
+        font-size: 1rem;
+    }
+    .tbla{
+        
+        display: none;
+    }
+    .tbla1{
+        position: relative;
+        display: block;
+        top: 230px;
+        left: 15%;
+    }
+    .bota{
+    position: relative;
+    left: 12%;
+    top: 280px;
+    }
+    .jpg{
+        height: 50px;
+        width: 300px;
+        margin: -15px 0px;
+    }
+    .barra{
+        display: none;
+    }
+    .barra1{
+        display: block;
+        position: relative;
+        top: 300px;
+        
+    }
+    .foo1{
+        width: 100%;
+        height: 160px;
+    }
+    .derecho{
+        position: relative;
+        top: 320px;
+        left: 5%;
+        width: 300px;
+    }
+    .der{
+        
+        width: 100%;
+    }
+}
+@media screen and (min-width: 360px){
+    
+    .superior{
+        position: relative;
+        right: 200%;
+    }
+}
